@@ -23,9 +23,6 @@ It generates a new docker image on your local registry, that serves as a templat
 - python
 - docker
 
-> **IMPORTANT**: In order to download the python libraries stored in Nexus, it is necessary that you update
-> the [deploy/pip_conf/.netrc](./deploy/pip_conf/.netrc) file with your **access credentials to the Nexus server**.
-
 ## Usage
 
 Just install the needed requirements under a new conda env:

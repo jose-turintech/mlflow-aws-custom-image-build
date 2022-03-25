@@ -1,0 +1,19 @@
+# Necessary requirements for library package
+#   python_version: 3.8
+# ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+mlflow >= 1.24.0
+
+# Dependency to our custom scoring server just to make a POC.
+git+https://github.com/jose-turintech/mlflow-turing-scoring-server@master#egg=mlflow_turing_scoring_server
+
+# --------------------------------------------------------------------------------------------------------------------
+# --- Configuration:
+# --------------------------------------------------------------------------------------------------------------------
+
+# Data validation and settings management using Python type hinting.
+pydantic[dotenv]
+
+# Python logging made (stupidly) simple. Loguru is a library which aims to bring enjoyable logging in Python.
+loguru
+

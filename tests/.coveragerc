@@ -1,0 +1,7 @@
+# .coveragerc to control coverage.py
+[run]
+branch = True
+omit =
+    ../src/__about__.py
+    ../src/mlflow_custom_serving/conf/base_default_conf.py
+

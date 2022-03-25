@@ -1,0 +1,13 @@
+# DEVELOPMENT application
+version: "3.9"
+
+
+services:
+
+  app:
+    env_file:
+      - ./environments/dev/.env
+    volumes:
+      - ../src:/app
+      - ../docker/logs:/logs
+    restart: always

@@ -1,0 +1,27 @@
+# Requirements only for development (upload library to Nexus, testing, code style, ...)
+#   python_version: 3.8
+# ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+# --------------------------------------------------------------------------------------------------------------------
+# --- Code Style Tools:
+# --------------------------------------------------------------------------------------------------------------------
+
+# Tool for catch errors and ensure that the code is idiomatic Python (ie PEP8)
+flake8
+
+# Google tool for finding bugs and style problems in Python source code.
+# also suggests avoiding some tricky-but-useful features
+pylint
+
+
+# --------------------------------------------------------------------------------------------------------------------
+# --- Testing:
+# --------------------------------------------------------------------------------------------------------------------
+
+# Framework to write small tests, yet scales to support complex functional testing for applications and libraries.
+pytest~=6.1.0
+
+# Pytest plugin for measuring coverage.
+pytest-cov
+

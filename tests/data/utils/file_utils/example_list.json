@@ -1,0 +1,10 @@
+[
+  {
+    "first_field": "value1",
+    "second_field": 1
+  },
+  {
+    "first_field": "value2",
+    "second_field": 2
+  }
+]
